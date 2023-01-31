@@ -1,5 +1,5 @@
-html {
-    font-size: 14px;
+body{
+    background-color: beige;
 }
 
 @media (min-width: 768px) {
@@ -8,6 +8,21 @@ html {
     }
 }
 
+.titulo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.nota{
+    font-weight: bold;
+    color: rgb(92, 71, 13);
+}
+
+.notaList{
+    color: rgb(92, 71, 13);
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
 .container {
     max-width: 960px;
 }
@@ -18,4 +33,40 @@ html {
 
 .card-deck .card {
     min-width: 220px;
+}
+
+.card-img{
+    height: 8.5rem;
+}
+
+.card-header{
+    background-color: rgba(187, 243, 245, 0.966);
+}
+
+.btn{
+    border-color: rgb(25, 170, 175);
+    color: black;
+}
+.btn:hover{
+    background-color: rgb(25, 170, 175);
+    border-color: black;
+}
+.containerbtn{
+    display: flex;
+    justify-content: space-around;
+}
+.btnFun{
+    background-color: white;
+    border-color: rgb(127, 38, 211);
+    color: rgb(30, 30, 31);
+    border-radius: 10px;
+    height: 3em;
+    width: 9em;
+    margin: 2em 3em;
+}
+
+.btnFun:hover{
+    background-color: rgb(127, 38, 211);
+    color: rgb(243, 243, 252);
+    font-weight: bolder;
 }
